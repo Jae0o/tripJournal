@@ -22,6 +22,7 @@ code {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -36,7 +37,14 @@ code {
 
 
   /* stroke */
-  --stroke-line: 0.3px
+  --stroke-line: 0.3px;
+
+  /* font */
+  /* ---- size */
+
+  --font-size-bolder: 48px;
+
+  --font-size-small: 16px
 }
 
 button {
