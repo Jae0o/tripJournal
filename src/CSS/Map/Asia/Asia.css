@@ -1,17 +1,13 @@
 .AsiaMap_box {
-  border: 1px red solid;
   width: 100%;
   height: 100%;
 }
 
 #AsiaMap {
-
   stroke: var(--color-white);
   stroke-width: var(--stroke-line);
   stroke-linecap: round;
   stroke-linejoin: round;
-
-  border: 1px solid white;
   width: 100%;
   height: 100%;
 }

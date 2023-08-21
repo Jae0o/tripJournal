@@ -5,10 +5,6 @@ export default function KoreaMap() {
   return (
     <svg
       id='KoreaMap'
-      stroke="#ffffff"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="1"
       version="1.2"
       viewBox="0 0 1000 1064"
       xmlns="http://www.w3.org/2000/svg"
