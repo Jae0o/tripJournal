@@ -1,6 +1,19 @@
 .Map {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 100%;
-  height: fit-content;
+  height: 100%;
+  border: 1px solid white;
+}
+
+#GlobalMap {
+  stroke: var(--color-white);
+  stroke-width: var(--stroke-line);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  border: 1px red solid;
 }
 
 g path {

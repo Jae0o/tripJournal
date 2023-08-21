@@ -25,10 +25,18 @@ code {
 }
 
 :root {
+  /* color */
   --color-black: #01171b;
   --color-hover: #006284;
   --color-land: #00394f;
   --color-white: #e9e9e9;
+
+  /* animation timing */
+  --animation-time-hover: 0.3s;
+
+
+  /* stroke */
+  --stroke-line: 0.3px
 }
 
 button {
@@ -36,4 +44,14 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+path {
+  fill: var(--color-land);
+  cursor: pointer;
+  transition: var(--animation-time-hover);
+}
+
+path:hover {
+  fill: var(--color-hover);
 }

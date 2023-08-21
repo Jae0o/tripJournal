@@ -1,22 +1,18 @@
 import React from 'react'
-import '../CSS/Asia.css';
+import '../CSS/Map/Asia/Asia.css';
 import { useNavigate } from 'react-router-dom';
 
 export default function Asia() {
 	const Navigate = useNavigate()
 	return (
-		<div>
+		<div className='AsiaMap_box'>
 			<svg
-				id="box"
+				id="AsiaMap"
 				viewBox="0 0 1500 1200"
-				stroke="#ffffff"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="1"
-				space="preserve"
+				preserveAspectRatio="xMidYMid meet"
 			>
 				<g>
-					<g className='test'>
+					<g>
 						<path
 							d="M193.24,423.96c0-5.08,10.45-0.41,12.45,0.46c2.37,1.04,4.21,1.83,6.94,1.3
 			c1.29-0.25,2.33-0.48,3.88,0.43c0.58,0.34,2.52-0.22,3.57,0.38c2.37,1.37,4.38,2.28,5.4,2.93c0.46,0.29,1.51,0.46,2.92,1.91

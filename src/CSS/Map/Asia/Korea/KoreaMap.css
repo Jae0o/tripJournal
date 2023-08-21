@@ -1,0 +1,14 @@
+#KoreaMap {
+  width: 1000px;
+  height: 1064px;
+}
+
+#KoreaMap path {
+  fill: var(--color-land);
+  cursor: pointer;
+  transition: all var(--animation-time-hover);
+}
+
+#KoreaMap path:hover {
+  fill: var(--color-hover);
+}

@@ -1,8 +1,13 @@
-.Outlet_Box {
+.App_outlet {
   width: 100vw;
   height: 85vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.App_navbar {
+  height: 100px;
+  width: 100%;
 }

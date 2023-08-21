@@ -5,8 +5,10 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className='Outlet_Box'>
+      <div className='App_navbar'>
+        <Navbar />
+      </div>
+      <div className='App_outlet'>
         <Outlet />
       </div>
     </div>
