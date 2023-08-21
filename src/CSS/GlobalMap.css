@@ -1,0 +1,40 @@
+.Map {
+  width: 100%;
+  height: fit-content;
+}
+
+g path {
+  fill: var(--color-land);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+g:hover path {
+  fill: var(--color-hover);
+}
+
+
+/* 
+#Africa:hover path {
+  fill: var(--color-hover);
+}
+
+#Asia:hover path {
+  fill: var(--color-hover);
+}
+
+#Oceania:hover path {
+  fill: var(--color-hover);
+}
+
+#Europe:hover path {
+  fill: var(--color-hover);
+}
+
+#SouthAmerica:hover path {
+  fill: var(--color-hover);
+}
+
+#NorthAmerica:hover path {
+  fill: var(--color-hover);
+} */
