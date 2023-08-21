@@ -1,0 +1,18 @@
+#KoreaMap {
+  stroke: var(--color-white);
+  stroke-width: var(--stroke-line);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 1000px;
+  height: 1064px;
+}
+
+#KoreaMap path {
+  fill: var(--color-land);
+  cursor: pointer;
+  transition: all var(--animation-time-hover);
+}
+
+#KoreaMap path:hover {
+  fill: var(--color-hover);
+}
