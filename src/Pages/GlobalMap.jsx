@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/GlobalMap.css'
+import '../CSS/Map/GlobalMap.css'
 import { useNavigate } from 'react-router-dom'
 
 export default function GlobalMap() {
@@ -7,14 +7,11 @@ export default function GlobalMap() {
   return (
     <div className='Map'>
       <svg
+        id='GlobalMap'
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 468 239"
-        stroke="#ffffff"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1"
-        space="preserve"
+        preserveAspectRatio="xMidYMid meet"
       >
 
         <g

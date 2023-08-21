@@ -1,6 +1,17 @@
 .Map {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 100%;
-  height: fit-content;
+  height: 100%;
+}
+
+#GlobalMap {
+  /* stroke 적용이 안됨 */
+  stroke: var(--color-white);
+  stroke-width: var(--stroke-line);
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 g path {
