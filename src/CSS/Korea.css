@@ -1,0 +1,15 @@
+.koreaBox {
+  display: flex;
+}
+
+.left {
+  width: 40vw;
+}
+
+#KoreaMap {
+  width: 60vw;
+}
+
+#KoreaMap path:hover {
+  fill: var(--color-hover);
+}
