@@ -6,7 +6,7 @@
   align-items: center;
   position: relative;
   border-radius: 16px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .CountryCard_background {
@@ -32,21 +32,49 @@
   border: 4px var(--color-white) solid;
 }
 
-.CountryCard_Card_title {
+.CountryCard_Card_titleBox,
+.CountryCard_Card_capitalBox,
+.CountryCard_Card_infoBox,
+.CountryCard_Card_btnBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.CountryCard_Card_titleBox {
+  height: 60px;
+}
+
+.CountryCard_Card_titleBox_title {
+  padding: 0;
+  margin: 0;
   font-size: var(--font-size-bolder);
 }
 
-.CountryCard_Card_capital {
+.CountryCard_Card_capitalBox {
+  height: 22px;
+  margin-bottom: 44px;
+}
+
+.CountryCard_Card_capitalBox_capital {
   font-size: var(--font-size-small);
-  margin-bottom: 44px;
 }
 
-.CountryCard_Card_info {
+.CountryCard_Card_infoBox {
+  margin-bottom: 44px;
+  align-items: flex-start;
+  height: 200px;
+}
+
+.CountryCard_Card_infoBox_info {
   font-size: 20px;
-  margin-bottom: 44px;
 }
 
-.CountryCard_Card_btn {
+.CountryCard_Card_btnBox {
+  height: 60px;
+}
+
+.CountryCard_Card_btnBox_btn {
   color: var(--color-white);
   width: 140px;
   height: 60px;

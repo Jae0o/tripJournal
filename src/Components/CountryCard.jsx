@@ -11,18 +11,30 @@ export default function CountryCard({ title, capital, info, img }) {
       />
       <div className='CountryCard_Card'>
 
-        <h1 className='CountryCard_Card_title'>
-          {title}
-        </h1>
+        <div className='CountryCard_Card_titleBox'>
+          <h1 className='CountryCard_Card_titleBox_title'>
+            {title}
+          </h1>
+        </div>
 
-        <sub className='CountryCard_Card_capital'>
-          {capital}</sub>
+        <div className='CountryCard_Card_capitalBox'>
+          <sub className='CountryCard_Card_capitalBox_capital'>
+            {capital}
+          </sub>
+        </div>
 
-        <p className='CountryCard_Card_info'>
-          {info}</p>
 
-        <button className='CountryCard_Card_btn'>
-          추가할 버튼</button>
+        <div className='CountryCard_Card_infoBox'>
+          <p className='CountryCard_Card_infoBox_info'>
+            {info}
+          </p>
+        </div>
+
+        <div className='CountryCard_Card_btnBox'>
+          <button className='CountryCard_Card_btnBox_btn'>
+            추가할 버튼
+          </button>
+        </div>
 
       </div>
 
@@ -30,3 +42,4 @@ export default function CountryCard({ title, capital, info, img }) {
     </div>
   )
 }
+
